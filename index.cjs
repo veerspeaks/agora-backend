@@ -5,8 +5,8 @@ const app = express();
 const port = 4000;
 
 // Your Agora app credentials
-const appID = '0667a7d327224fb7b8c3856c507692ec';
-const appCertificate = 'b85e6d3f2c0c4f1aba748e50344c7ff7';
+const appID = 'your_app_id';
+const appCertificate = 'your_app_certificate';
 
 app.use(cors());
 app.use(express.json());
